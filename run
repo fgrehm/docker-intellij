@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Make sure the user data directory is owned by the developer user
+if [ -d /home/developer/.IdeaIC14 ]; then
+  sudo chown developer:developer /home/developer/.IdeaIC14
+fi
+exec /opt/intellij/bin/idea.sh

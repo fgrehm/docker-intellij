@@ -1,0 +1,2 @@
+echo 'This will take a lot of time...'
+docker build -t fgrehm/intellij-idea:v14.0.2 .
